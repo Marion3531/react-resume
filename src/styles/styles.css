@@ -1,0 +1,121 @@
+/**************overall setup**************/
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+* {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0px;
+  font-family: "Manrope", sans-serif;
+}
+
+html, body {
+  height: 100%; 
+  margin: 0; 
+}
+
+/*this is to prevent the writing in the links to appear in red when clicked*/
+a {
+  color: inherit;
+}
+
+:root {
+  --darkColor: #242665;
+  --lightColor: #98abee;
+}
+
+/**************header part**************/
+
+.header {
+  background: linear-gradient(to right, var(--lightColor), var(--darkColor));
+  text-align: right;
+  color: white;
+  padding: 20px 20px 20px 0px;
+}
+
+.header-subtitle {
+  letter-spacing: 5px;
+  font-weight: 300;
+}
+
+/**************XXXXXXXXXXXXXXXXX**************/
+
+.layout-container{
+  display: flex;
+}
+
+.layout-navbar-and-main-sections{
+  display: flex;
+  flex-direction: column;
+}
+
+/**************navbar part**************/
+
+.navbar-container {
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+}
+
+.navbar-button,
+.navbar-button-selected {
+  margin: 0px 20px 0px 20px;
+  color: black;
+  font-size: 24px;
+  border-radius: 5px;
+  color: white;
+}
+
+.navbar-button {
+  background-color: var(--lightColor);
+  border: solid 3px var(--lightColor);
+}
+
+.navbar-button:hover {
+  border: solid 3px var(--darkColor);
+}
+
+.navbar-button-selected {
+  border: solid 3px var(--darkColor);
+  background-color: var(--darkColor);
+}
+
+ul a {
+  color: inherit;
+  padding: 20px;
+}
+
+/**************side bar**************/
+
+.side-bar {
+  background-color: red;
+  height: 100%;
+}
+
+/**************sections (career, skills, etc.)**************/
+
+.section {
+  max-width: 60%;
+  margin: auto;
+}
+
+/***home***/
+
+.welcome-title{
+  font-size: 34px;
+  margin: 28px 0px 18px 0px;
+}
+
+.welcome-message {
+  text-align: left;
+  font-size: 26px;
+  color: rgb(53, 53, 53);
+}
+
+/***career & education***/
+
+/***skills***/
+
+/***hobbies***/
