@@ -13,7 +13,7 @@ const SideBar = () => {
         </a>
       </p>
       <p>
-        The code for this interactive resume is on my{" "}
+        The code for this resume is on my{" "}
         <a href="https://github.com/Marion3531/" target="blank">
           Github
         </a>
